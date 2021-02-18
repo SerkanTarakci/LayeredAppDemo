@@ -10,6 +10,7 @@ This is a demo project created using layered architecture that I made for learni
 * Set Northwind.WebFormsUI Startup Project
 ## Layers
 🗃 Northwind.Business
+
     📂 Abstract
          📃 ICategoryService.cs
          📃 IProductService.cs
@@ -31,6 +32,7 @@ This is a demo project created using layered architecture that I made for learni
             📃 ProductValidator.cs         
             
 🗃 Northwind.DataAccess
+
     📂 Abstract
          📃 ICategoryDal.cs
          📃 IEntityRepository.cs
@@ -46,6 +48,7 @@ This is a demo project created using layered architecture that I made for learni
             📃 NhProductDal.cs
 
 🗃 Northwind.Entities    
+
     📂 Abstract
          📃 IEntity.cs
          
@@ -54,6 +57,7 @@ This is a demo project created using layered architecture that I made for learni
          📃 Product.cs
 
 🗃 Northwind.WebFormsUI
+
     📃 Form1.cs
     📃 Program.cs
 
