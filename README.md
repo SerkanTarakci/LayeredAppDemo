@@ -62,7 +62,9 @@ This is a demo project created using layered architecture that I made for learni
     📃 Program.cs
 
 ## Output
-https://cdn-images-1.medium.com/max/1200/1*vfJiMkQiB7eX3Bb5MFxpfg.png
+
+![alt text](https://cdn-images-1.medium.com/max/1200/1*vfJiMkQiB7eX3Bb5MFxpfg.png)
+
 
 
 
