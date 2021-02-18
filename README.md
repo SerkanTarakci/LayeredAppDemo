@@ -7,3 +7,58 @@ This is a demo project created using layered architecture that I made for learni
 ## Insallation & Usage
 * Northwind database query can be accessed via [this link](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs).
 * **EntityFramework.6.2.0** package was added to **Northwind.DataAccess** and **Northwind.WebFormsUI** layers via **NuGet Package Manager**
+* Set Northwind.WebFormsUI Startup Project
+## Layers
+🗃 Northwind.Business
+    📂 Abstract
+         📃 ICategoryService.cs
+         📃 IProductService.cs
+         
+    📂 Concrete
+         📃 CategoryManager.cs
+         📃 ProductManager.cs
+         
+    📂 DependencyResolvers
+       📂 Ninject
+            📃 BusinessModule.cs
+            📃 InstanceModule.cs
+            
+    📂 Utilities
+         📃 ValidationTool.cs
+         
+    📂 ValidationRules
+       📂 FluentValidation
+            📃 ProductValidator.cs         
+            
+🗃 Northwind.DataAccess
+    📂 Abstract
+         📃 ICategoryDal.cs
+         📃 IEntityRepository.cs
+         📃 IProductDal.cs
+
+    📂 Concrete
+       📂 EntityFramework
+            📃 EfCategoryDal.cs
+            📃 EfEntityRepositoryBase.cs
+            📃 EfProductDal.cs
+            📃 NorthwindContext.cs
+       📂 NHibernate
+            📃 NhProductDal.cs
+
+🗃 Northwind.Entities    
+    📂 Abstract
+         📃 IEntity.cs
+         
+    📂 Abstract
+         📃 Category.cs
+         📃 Product.cs
+
+🗃 Northwind.WebFormsUI
+    📃 Form1.cs
+    📃 Program.cs
+
+
+
+
+
+
