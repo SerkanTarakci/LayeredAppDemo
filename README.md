@@ -63,7 +63,7 @@ This is a demo project created using layered architecture that I made for learni
 
 ## Output
 
-![alt text](https://cdn-images-1.medium.com/max/1200/1*9pjADvgAUaJ3Y885TDymDA.png)
+![](https://cdn-images-1.medium.com/max/1200/1*9pjADvgAUaJ3Y885TDymDA.png | width=100)
 
 
 
