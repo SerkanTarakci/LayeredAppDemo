@@ -8,7 +8,7 @@ This is a demo project created using layered architecture that I made for learni
 * Northwind database query can be accessed via [this link](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs).
 * **EntityFramework.6.2.0** package was added to **Northwind.DataAccess** and **Northwind.WebFormsUI** layers via **NuGet Package Manager**.
 * **FluentValidation** package was added to **Northwind.Business** layer via **NuGet Package Manager**.
-* **Ninject** package was added to **Northwind.Business** layer via **NuGet Package Manager**.
+* **Ninject** package was added to **Northwind.Business** and **Northwind.WebFormsUI** layers via **NuGet Package Manager**.
 * Set Northwind.WebFormsUI Startup Project.
 ## Layers
 🗃 Northwind.Business
